@@ -15,3 +15,10 @@ SELECT * FROM products WHERE price BETWEEN 100 AND 500;
 SELECT name FROM products WHERE name LIKE 'S%';
 SELECT * FROM products WHERE category IN ('Food', 'Drink', 'Movie', 'Travel');
 SELECT * FROM products WHERE in_stock IS NOT NULL AND price != 0;
+ALTER TABLE products ADD COLUMN discount_percent DECIMAL(5,2);
+ALTER TABLE products RENAME COLUMN category TO product_category;
+ALTER TABLE products ALTER COLUMN discount_percent TYPE DECIMAL(6,2);
+ALTER TABLE products DROP COLUMN discount_percent;
+CREATE TABLE products_backup AS SELECT * FROM products;
+TRUNCATE TABLE products_backup;
+-- The data is gone while the table structure remains, because TRUNCATE only clears rows, not the table definition.
