@@ -9,7 +9,7 @@ SQL, Python, DSA, Cloud (AWS), and Orchestration (Airflow + PySpark).
 ### 1. SQL
 - [x] Intro to RDBMS, data types, operators — [`sql/01-rdbms-basics`](./sql/01-rdbms-basics)
 - [x] DDL: CREATE, ALTER, DROP, TRUNCATE - [`sql/02-ddl`](./sql/02-ddl)
-- [ ] DML: INSERT, UPDATE, DELETE
+- [x] DML: INSERT, UPDATE, DELETE - [`sql/03-dml`](./sql/03-dml)S
 - [ ] SELECT, WHERE, ORDER BY, LIMIT, DISTINCT
 - [ ] Aggregate functions
 - [ ] GROUP BY, HAVING
