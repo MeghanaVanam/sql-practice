@@ -89,6 +89,16 @@
             "name": "sqlsql",
             "database": "ownsql",
             "username": "postgres"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "sql5",
+            "database": "ownsql",
+            "username": "postgres"
         }
     ]
 }
