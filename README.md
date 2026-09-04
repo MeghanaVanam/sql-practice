@@ -12,7 +12,7 @@ SQL, Python, DSA, Cloud (AWS), and Orchestration (Airflow + PySpark).
 - [x] DML: INSERT, UPDATE, DELETE - [`sql/03-dml`](./sql/03-dml)
 - [x] SELECT, WHERE, ORDER BY, LIMIT, DISTINCT - [`sql/04-sql`](./sql/04-sql)
 - [x] Aggregate functions - [`sql/05-sql`](./sql/05-sql)
-- [ ] GROUP BY, HAVING
+- [x] GROUP BY, HAVING - [`sql/06-sql`](./sql/06-sql)
 - [ ] JOINs
 - [ ] Subqueries
 - [ ] Window functions
